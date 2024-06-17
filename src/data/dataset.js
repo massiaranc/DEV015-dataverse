@@ -309,6 +309,4 @@ export default [
       "calorías": "130",
       "tiempoDePreparación": "5 minutos",
     },
-    "extraInfo": "¡Decora con rodajas de fresa y una ramita de menta para un toque de frescura!"
-  },
 ];
