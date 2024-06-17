@@ -1,378 +1,312 @@
 export default [
   {
-    "id": "ada-lovelace",
-    "name": "Ada Lovelace",
-    "shortDescription": "Pionera en la programación, primera programadora de la historia.",
-    "description": "Una visionaria matemática británica del siglo XIX, es aclamada como la primera programadora de la historia. Su colaboración con Charles Babbage en la creación de la Máquina Analítica la llevó a desarrollar algoritmos, incluyendo el famoso \"algoritmo de Bernoulli\", destinados a ser procesados por una máquina. Su visión pionera la convirtió en una figura fundamental en la informática y la inteligencia artificial. Lovelace demostró que las computadoras podían ir más allá de simples cálculos matemáticos, anticipando un mundo donde la programación sería esencial en la resolución de problemas complejos, dejando una huella imborrable en la ciencia y la tecnología.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/ada-lovelace.jpg",
+    "id": "mojitoRefrescante001",
+    "name": "Mojito Refrescante",
+    "shortDescription": "Refrescante y delicioso, con un toque de menta y limón.",
+    "description": "Este Mojito Refrescante es una explosión de sabores tropicales que te transportará a una playa paradisíaca. Preparado con ron blanco, limón fresco, menta, azúcar y soda, es la bebida perfecta para refrescar tu día.",
+    "imageUrl": "Imagen de Mojito Refrescante",
     "facts": {
-      "yearOfBirth": "1815",
-      "yearOfDeath": "1852",
-      "birthPlace": "Londres, Reino Unido",
-      "mainField": "Ciencia de la Computación"
+      "alcoholContent": "7.5% ABV",
+      "calorías": "120",
+      "tiempoDePreparación": "5 minutos",
     },
-    "extraInfo": {
-      "imageSource": "https://www.bing.com/images/create/genera-una-imagen-de-ada-lovelace2c-la-primera-prog/650a1eff8ff04b88833d5cdef0309441"
-    }
+    "extraInfo": "¡Sirve con mucho hielo y una ramita de menta fresca para darle un toque aún más especial!"
   },
   {
-    "id": "emmy-noether",
-    "name": "Emmy Noether",
-    "shortDescription": "Matemática destacada, teorema fundamental en álgebra abstracta.",
-    "description": "Una brillante matemática alemana, revolucionó la física teórica con sus contribuciones al teorema de conservación de la energía y el teorema de Noether, fundamentales en la teoría de la relatividad y la mecánica cuántica. A pesar de los obstáculos que enfrentó como mujer en la academia, sus investigaciones en álgebra abstracta y teoría de grupos son fundamentales en la física moderna. Su capacidad para unificar conceptos matemáticos y físicos marcó un hito en la historia de la ciencia, allanando el camino para futuras generaciones de científicas.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/emmy-noether.jpg",
+    "id": "pinacoladaTropical002",
+    "name": "Piña Colada Tropical",
+    "shortDescription": "Dulce y cremoso, con el sabor tropical de la piña y el coco.",
+    "description": "La Piña Colada Tropical es el cóctel perfecto para sentirte en una isla paradisíaca. Preparada con ron blanco, crema de coco, jugo de piña y hielo triturado, es una explosión de sabor y frescura. ¡Te transportará directamente a la playa!",
+    "imageUrl": "Imagen de Piña Colada Tropical",
     "facts": {
-      "yearOfBirth": "1882",
-      "yearOfDeath": "1935",
-      "birthPlace": "Erlangen, Alemania",
-      "mainField": "Matemáticas"
+      "alcoholContent": "8% ABV",
+      "calorías": "180",
+      "tiempoDePreparación": "7 minutos",
     },
-    "extraInfo": {
-      "imageSource": "https://www.bing.com/images/create/create-an-image-of-of-a-german-woman2c-a-pioneering/6510ddb1e8254b928b8f8f1d5e95fea4"
-    }
+    "extraInfo": "¡Decora con una rodaja de piña y un paraguas de cóctel para un toque aún más festivo!"
   },
   {
-    "id": "hypatia-de-alejandria",
-    "name": "Hypatia de Alejandría",
-    "shortDescription": "Matemática y filósofa en la antigua Alejandría.",
-    "description": "Filósofa y matemática en la antigua Alejandría, desafió las normas de género de su época al destacar en una sociedad dominada por hombres. Su legado incluye importantes contribuciones a la geometría y la astronomía, así como su destacado papel como maestra y defensora del conocimiento en una época de agitación política. Hypatia demostró que las mujeres podían sobresalir en campos intelectuales y su valentía al mantener sus creencias filosóficas la convierte en un símbolo de resistencia y sabiduría en la historia de la ciencia.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/hypatia-de-alejandria.jpg",
+    "id": "margaritaClasica003",
+    "name": "Margarita Clásica",
+    "shortDescription": "Agrio, salado y delicioso, con un toque de tequila y lima.",
+    "description": "La Margarita Clásica es un cóctel imprescindible para cualquier ocasión festiva. Preparada con tequila, triple sec, jugo de lima y un toque de jarabe de agave, es una explosión de sabores que te dejará queriendo más. ¡Salud!",
+    "imageUrl": "Imagen de Margarita Clásica",
     "facts": {
-      "yearOfBirth": "circa 360",
-      "yearOfDeath": "415",
-      "birthPlace": "Alejandría, Egipto",
-      "mainField": "Matemáticas, Filosofía"
+      "alcoholContent": "10% ABV",
+      "calorías": "150",
+      "tiempoDePreparación": "5 minutos",
     },
-    "extraInfo": {
-      "imageSource": "https://www.bing.com/images/create/create-a-vivid-digital-artwork-or-painting-that-de/6510df0ebe1a4807af22175452761e1a"
-    }
+    "extraInfo": "¡Sirve en un vaso escarchado con sal y una rodaja de lima para una presentación espectacular!"
   },
   {
-    "id": "marjorie-lee-browne",
-    "name": "Marjorie Lee Browne",
-    "shortDescription": "Matemática, contribuyó a la teoría de números.",
-    "description": "Matemática estadounidense, destacó en una época en la que las mujeres afroamericanas enfrentaban múltiples barreras en la educación superior. No solo obtuvo su doctorado en matemáticas, sino que también se convirtió en una destacada educadora, promoviendo la diversidad en las ciencias matemáticas y desafiando la discriminación racial y de género. Su compromiso con la educación y su capacidad para inspirar a futuras generaciones la convierten en un modelo a seguir para las mujeres en la ciencia, dejando una huella perdurable en la historia académica.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/marjorie-lee-browne.jpg",
+    "id": "daiquiriFresa004",
+    "name": "Daiquiri de Fresa",
+    "shortDescription": "Dulce, refrescante y repleto de sabor a fresa fresca.",
+    "description": "El Daiquiri de Fresa es una deliciosa variación del clásico cóctel Daiquiri. Preparado con ron blanco, fresas frescas, jugo de limón y jarabe de azúcar, este cóctel es perfecto para los amantes de las fresas y las bebidas dulces.",
+    "imageUrl": "Imagen de Daiquiri de Fresa",
     "facts": {
-      "yearOfBirth": "1914",
-      "yearOfDeath": "1979",
-      "birthPlace": "Memphis, Estados Unidos",
-      "mainField": "Matemáticas"
+      "alcoholContent": "8.5% ABV",
+      "calorías": "140",
+      "tiempoDePreparación": "5 minutos",
     },
-    "extraInfo": {
-      "imageSource": "https://www.bing.com/images/create/design-an-inspiring-and-historically-accurate-imag/6510df7e7bb745f69d67f695441607a8"
-    }
+    "extraInfo": "¡Decora con una fresa en el borde del vaso para un toque de color y frescura adicional!"
   },
   {
-    "id": "shakuntala-devi",
-    "name": "Shakuntala Devi",
-    "shortDescription": "Matemática prodigio, conocida como la 'Calculadora Humana'.",
-    "description": "Conocida como \"la bruja de las matemáticas\" de la India, dejó una marca indeleble en el mundo de los números. Su capacidad mental asombrosa la llevó a resolver complejos cálculos matemáticos mentalmente en cuestión de segundos, estableciendo récords mundiales. Además de su talento innato, Devi promovió activamente la educación matemática y luchó por la igualdad de género en un país donde las mujeres enfrentaban desafíos en la ciencia y la educación. Su legado destaca el poder de la mente humana y la importancia de la igualdad de oportunidades en la ciencia.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/shakuntala-devi.jpg",
+    "id": "caipirinhaBrasileña005",
+    "name": "Caipirinha Brasileña",
+    "shortDescription": "Cítrica, refrescante y llena de sabor a lima fresca.",
+    "description": "La Caipirinha Brasileña es el cóctel nacional de Brasil y una verdadera delicia para el paladar. Preparada con cachaça, lima fresca, azúcar y hielo, esta bebida es perfecta para disfrutar en cualquier ocasión.",
+    "imageUrl": "Imagen de Caipirinha Brasileña",
     "facts": {
-      "yearOfBirth": "1929",
-      "yearOfDeath": "2013",
-      "birthPlace": "Bangalore, India",
-      "mainField": "Matemáticas"
+      "alcoholContent": "9% ABV",
+      "calorías": "160",
+      "tiempoDePreparación": "5 minutos",
     },
-    "extraInfo": {
-      "imageSource": "https://www.bing.com/images/create/indian-woman-writing-math-problems-in-a-blackbard-/6510e19f3db54e14b365b7e8dc5045f6"
-    }
+    "extraInfo": "¡Sirve en un vaso corto con mucho hielo y disfruta del sabor tropical de Brasil!"
   },
   {
-    "id": "sofia-kovalevskaya",
-    "name": "Sofia Kovalevskaya",
-    "shortDescription": "Matemática y escritora, contribuyó a la teoría de funciones.",
-    "description": "Matemática rusa del siglo XIX, dejó una marca indeleble en la ciencia del siglo XIX al desafiar las barreras de género. Como matemática rusa, superó las restricciones sociales de su época para convertirse en la primera mujer en obtener un doctorado en matemáticas en Europa. Sus contribuciones a la teoría de las ecuaciones diferenciales y la mecánica revolucionaron la disciplina, abriendo nuevas perspectivas en el análisis matemático. Su destacada membresía en la Academia de Ciencias de Suecia marcó un hito en la historia de las mujeres en la ciencia.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/sofia-kovalevskaya.jpg",
+    "id": "sangriaEspañola006",
+    "name": "Sangría Española",
+    "shortDescription": "Frutal, refrescante y perfecta para compartir con amigos.",
+    "description": "La Sangría Española es una bebida clásica española que combina vino tinto, frutas frescas, jugo de naranja, brandy y un toque de soda. Es una opción ideal para fiestas y reuniones familiares.",
+    "imageUrl": "Imagen de Sangría Española",
     "facts": {
-      "yearOfBirth": "1850",
-      "yearOfDeath": "1891",
-      "birthPlace": "Moscú, Rusia",
-      "mainField": "Matemáticas"
+      "alcoholContent": "7% ABV",
+      "calorías": "180",
+      "tiempoDePreparación": "10 minutos",
     },
-    "extraInfo": {
-      "imageSource": "https://www.bing.com/images/create/indian-woman-writing-math-problems-in-a-blackbard-/6510e19f3db54e14b365b7e8dc5045f6"
-    }
+    "extraInfo": "¡Decora con rodajas de naranja, limón y trozos de frutas para una presentación impresionante!"
   },
   {
-    "id": "yoko-shimomura",
-    "name": "Yoko Shimomura",
-    "shortDescription": "Compositora de música, destacada en la industria de los videojuegos.",
-    "description": "Compositora japonesa, es una figura destacada en la ciencia de la música y el arte sonoro. Aunque no se dedica a la ciencia en el sentido tradicional, su trabajo en la composición musical ha requerido un profundo entendimiento de la teoría musical y la tecnología de audio. Ha contribuido de manera significativa a la industria de los videojuegos, componiendo icónicas bandas sonoras que han enriquecido la experiencia de juego. Su éxito en un campo donde las mujeres estaban subrepresentadas la convierte en un modelo a seguir, incluso en campos no convencionales como la composición musical.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/yoko-shimomura.jpg",
+    "id": "mintJulepRefrescante007",
+    "name": "Mint Julep Refrescante",
+    "shortDescription": "Refrescante y aromático, con un toque de menta fresca y bourbon.",
+    "description": "El Mint Julep Refrescante es un cóctel clásico sureño con una mezcla de bourbon, azúcar, agua y hojas de menta. Es perfecto para disfrutar en un día caluroso de verano.",
+    "imageUrl": "Imagen de Mint Julep Refrescante",
     "facts": {
-      "yearOfBirth": "1967",
-      "birthPlace": "Hyogo, Japón",
-      "mainField": "Composición Musical, Video Juegos"
+      "alcoholContent": "10% ABV",
+      "calorías": "160",
+      "tiempoDePreparación": "5 minutos",
     },
-    "extraInfo": {
-      "imageSource": "https://www.bing.com/images/create/yoko-shimomura-making-music-for-a-video-game-in-19/6510e40dd1eb45d0906e8c1f4bb601d3"
-    }
+    "extraInfo": "¡Sirve en un vaso de julepe de plata con mucho hielo triturado y una ramita de menta para una presentación elegante!"
   },
   {
-    "id": "maryam-mirzakhani",
-    "name": "Maryam Mirzakhani",
-    "shortDescription": "Matemática, ganadora del Premio Fields.",
-    "description": "Matemática iraní, hizo historia al convertirse en la primera mujer en ganar la Medalla Fields, el premio más prestigioso en matemáticas. Sus investigaciones en la geometría de superficies y la teoría de las superficies de Riemann han tenido un impacto duradero en la matemática pura. A lo largo de su carrera, Mirzakhani inspiró a muchas mujeres a perseguir carreras en ciencia y matemáticas, derribando las barreras de género. Su enfoque innovador y su capacidad para resolver problemas complejos la convierten en un modelo a seguir para la comunidad científica y en un símbolo de la excelencia matemática.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/maryam-mirzakhani.jpg",
+    "id": "moscowMuleRefrescante008",
+    "name": "Moscow Mule Refrescante",
+    "shortDescription": "Picante, refrescante y con un toque de lima, servido en una taza de cobre.",
+    "description": "El Moscow Mule Refrescante es un cóctel clásico que combina vodka, ginger beer y jugo de lima. Se sirve en una taza de cobre para mantenerlo fresco y delicioso.",
+    "imageUrl": "Imagen de Moscow Mule Refrescante",
     "facts": {
-      "yearOfBirth": "1977",
-      "yearOfDeath": "2017",
-      "birthPlace": "Teherán, Irán",
-      "mainField": "Matemáticas"
+      "alcoholContent": "9% ABV",
+      "calorías": "150",
+      "tiempoDePreparación": "5 minutos",
     },
-    "extraInfo": {
-      "imageSource": "https://chalkdustmagazine.com/features/mathematics-maryam-mirzakhani/"
-    }
+    "extraInfo": "¡Decora con una rodaja de lima y una ramita de menta para una presentación impresionante!"
   },
   {
-    "id": "adele-goldberg",
-    "name": "Adele Goldberg",
-    "shortDescription": "Informática pionera, co-creadora del lenguaje de programación Smalltalk.",
-    "description": "Informática estadounidense reconocida por su influyente trabajo en la investigación y desarrollo de la programación orientada a objetos. Su contribución más destacada es la creación del lenguaje de programación Smalltalk, que revolucionó la forma en que se desarrollan software y sistemas informáticos. Goldberg ha sido una defensora incansable de la usabilidad y la accesibilidad en la informática, asegurando que las aplicaciones informáticas sean más amigables para los usuarios. Su trabajo ha allanado el camino para una programación más intuitiva y eficiente, y su legado perdura en la industria de la tecnología.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/adele-goldberg.jpg",
+    "id": "whiskeySourClasico009",
+    "name": "Whiskey Sour Clásico",
+    "shortDescription": "Agrio, dulce y delicioso, con un toque de bourbon y limón.",
+    "description": "El Whiskey Sour Clásico es un cóctel atemporal que combina bourbon, jugo de limón, azúcar y una clara de huevo para una textura suave y cremosa. Es una opción elegante para cualquier ocasión.",
+    "imageUrl": "Imagen de Whiskey Sour Clásico",
     "facts": {
-      "yearOfBirth": "1945",
-      "birthPlace": "Chicago, Estados Unidos",
-      "mainField": "Ciencias de la Computación"
+      "alcoholContent": "10% ABV",
+      "calorías": "170",
+      "tiempoDePreparación": "5 minutos",
     },
-    "extraInfo": {
-      "imageSource": "https://pionerasinformaticas.ujaen.es/en/computer-women-pioneers/adele-goldberg-en"
-    }
+    "extraInfo": "¡Decora con una cereza maraschino y una rodaja de limón para un toque de color!"
   },
   {
-    "id": "barbara-liskov",
-    "name": "Barbara Liskov",
-    "shortDescription": "Científica de la computación, pionera en programación orientada a objetos.",
-    "description": "Pionera de la informática, es conocida por su trabajo en la programación y la arquitectura de sistemas distribuidos. Fue la primera mujer en obtener un doctorado en ciencias de la computación en el Instituto de Tecnología de Stanford y desarrolló el lenguaje de programación CLU, que estableció fundamentos para la programación orientada a objetos. Liskov ha dejado una marca indeleble en la industria de la tecnología al liderar avances en sistemas de almacenamiento y seguridad informática. Su enfoque en la fiabilidad y la robustez ha influido en el diseño de sistemas críticos en todo el mundo.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/barbara-liskov.jpg",
+    "id": "palomaRefrescante010",
+    "name": "Paloma Refrescante",
+    "shortDescription": "Refrescante y cítrica, con tequila y refresco de toronja.",
+    "description": "La Paloma Refrescante es un cóctel mexicano clásico que combina tequila, refresco de toronja, jugo de lima y un toque de sal. Es una bebida ligera y deliciosa, perfecta para disfrutar en cualquier ocasión.",
+    "imageUrl": "Imagen de Paloma Refrescante",
     "facts": {
-      "yearOfBirth": "1939",
-      "birthPlace": "Los Angeles, Estados Unidos",
-      "mainField": "Ciencia de la Computación"
+      "alcoholContent": "9% ABV",
+      "calorías": "140",
+      "tiempoDePreparación": "5 minutos",
     },
-    "extraInfo": {
-      "imageSource": "https://medium.com/a-computer-of-ones-own/barbara-liskov-inventor-of-abstract-data-types-9f8908fdcf86"
-    }
+    "extraInfo": "¡Sirve en un vaso alto con hielo y una rodaja de toronja para una presentación elegante!"
   },
   {
-    "id": "grace-hopper",
-    "name": "Grace Hopper",
-    "shortDescription": "Científica de la computación, creadora del primer compilador.",
-    "description": "Una de las pioneras de la informática, es famosa por su contribución al desarrollo del primer compilador y al lenguaje de programación COBOL. Además, desafió los estereotipos de género en la década de 1940 al unirse a la Marina de los Estados Unidos y convertirse en la primera programadora de la computadora Harvard Mark I. Su legado abarca la creación de conceptos cruciales como la \"depuración de software\" y su influencia en el desarrollo de la informática moderna, estableciendo estándares para la programación de alto nivel y la innovación tecnológica.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/grace-hopper.jpg",
+    "id": "ginTonicRefrescante011",
+    "name": "Gin Tonic Refrescante",
+    "shortDescription": "Crisp, refrescante y con un toque de enebro, servido con una rodaja de limón.",
+    "description": "El Gin Tonic Refrescante es un clásico que nunca pasa de moda. Preparado con ginebra, tónica y una rodaja de limón, este cóctel es una opción elegante y refrescante para cualquier ocasión.",
+    "imageUrl": "Imagen de Gin Tonic Refrescante",
     "facts": {
-      "yearOfBirth": "1906",
-      "yearOfDeath": "1992",
-      "birthPlace": "Nueva York, Estados Unidos",
-      "mainField": "Ciencia de la Computación"
+      "alcoholContent": "8% ABV",
+      "calorías": "120",
+      "tiempoDePreparación": "5 minutos",
     },
-    "extraInfo": {
-      "imageSource": "https://photos.com/featured/grace-hopper-with-early-computer-bettmann.html"
-    }
+    "extraInfo": "¡Decora con bayas de enebro y una rodaja de limón para un toque de sofisticación!"
   },
   {
-    "id": "margaret-hamilton",
-    "name": "Margaret Hamilton",
-    "shortDescription": "Científica de la computación, lideró desarrollo de software para Apollo 11.",
-    "description": "Destacada científica de la computación que desempeñó un papel fundamental en el programa Apollo de la NASA. Fue directora de la División de Ingeniería de Software en el Laboratorio de Instrumentación del MIT, donde desarrolló el concepto de \"ingeniería de software\". Su liderazgo en el desarrollo del software de vuelo para las misiones Apollo fue fundamental para el éxito de la llegada del hombre a la Luna. Hamilton es un ejemplo de cómo la tecnología y la ciencia pueden alcanzar logros extraordinarios cuando se combinan con un enfoque innovador y una visión audaz.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/margaret-hamilton.jpg",
+    "id": "bloodyMaryPicante012",
+    "name": "Bloody Mary Picante",
+    "shortDescription": "Picante, sabroso y lleno de sabor a tomate, con un toque de vodka.",
+    "description": "El Bloody Mary Picante es un cóctel favorito para los amantes del tomate y la pimienta. Preparado con vodka, jugo de tomate, salsa picante, jugo de limón y condimentos, es perfecto para despertar tus papilas gustativas.",
+    "imageUrl": "Imagen de Bloody Mary Picante",
     "facts": {
-      "yearOfBirth": "1936",
-      "birthPlace": "Paoli, Indiana, Estados Unidos",
-      "mainField": "Ciencia de la Computación"
+      "alcoholContent": "9% ABV",
+      "calorías": "160",
+      "tiempoDePreparación": "5 minutos",
     },
-    "extraInfo": {
-      "imageSource": "https://odetta.ai/blogs/margaret-hamilton-the-first-software-engineer"
-    }
+    "extraInfo": "¡Decora con un tallo de apio, una aceituna y una rodaja de limón para un toque de sabor adicional!"
   },
   {
-    "id": "radia-perlman",
-    "name": "Radia Perlman",
-    "shortDescription": "Ingeniera de redes, inventora del algoritmo Spanning Tree.",
-    "description": "Científica de la computación estadounidense, ha dejado una marca indeleble en el mundo de las redes informáticas y la seguridad. Conocida como \"la madre de Internet\", su invención del algoritmo Spanning Tree Protocol (STP) revolucionó la conectividad de redes y sentó las bases para la infraestructura de Internet moderna. A pesar de operar en un campo dominado por hombres, Perlman ha demostrado que las mujeres pueden liderar avances tecnológicos vitales. Su compromiso con la resiliencia de las redes y la ciberseguridad ha influido en la estabilidad y confiabilidad de la comunicación en línea.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/radia-perlman.jpg",
+    "id": "maiTaiTropical013",
+    "name": "Mai Tai Tropical",
+    "shortDescription": "Exótico, dulce y con un toque de ron y almendra.",
+    "description": "El Mai Tai Tropical es una bebida exótica que combina ron blanco y ron oscuro con jugo de lima, almendra, triple sec y un toque de granadina. Es un cóctel perfecto para disfrutar en una tarde soleada junto a la piscina.",
+    "imageUrl": "Imagen de Mai Tai Tropical",
     "facts": {
-      "yearOfBirth": "1951",
-      "birthPlace": "Portsmouth, Estados Unidos",
-      "mainField": "Ciencia de la Computación"
+      "alcoholContent": "10% ABV",
+      "calorías": "170",
+      "tiempoDePreparación": "7 minutos",
     },
-    "extraInfo": {
-      "imageSource": "https://hackaday.com/2018/05/29/spanning-the-tree-dr-radia-perlman-untangling-networks/"
-    }
+    "extraInfo": "¡Decora con una rodaja de piña, una cereza y una sombrilla para un toque tropical!"
   },
   {
-    "id": "shafi-goldwasser",
-    "name": "Shafi Goldwasser",
-    "shortDescription": "Científica de la computación, ganadora del Premio Turing.",
-    "description": "Es una destacada criptógrafa y científica de la computación que ha contribuido significativamente a la teoría de la computación y la seguridad de la información. Su trabajo en criptografía de probabilidad y complejidad computacional ha sentado las bases para la seguridad en línea y la privacidad de datos en un mundo cada vez más digitalizado. Goldwasser es un ejemplo de cómo la ciencia de la computación puede abordar desafíos contemporáneos y proteger la información en la era de la información.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/shafi-goldwasser.jpg",
+    "id": "cosmopolitanElegante014",
+    "name": "Cosmopolitan Elegante",
+    "shortDescription": "Sofisticado, dulce y con un toque de vodka y arándano.",
+    "description": "El Cosmopolitan Elegante es un cóctel clásico que combina vodka, triple sec, jugo de arándano y jugo de lima. Es una bebida elegante y deliciosa que es perfecta para una noche de fiesta.",
+    "imageUrl": "Imagen de Cosmopolitan Elegante",
     "facts": {
-      "yearOfBirth": "1958",
-      "birthPlace": "Nueva York, Estados Unidos",
-      "mainField": "Ciencia de la Computación"
+      "alcoholContent": "9% ABV",
+      "calorías": "150",
+      "tiempoDePreparación": "5 minutos",
     },
-    "extraInfo": {
-      "imageSource": "https://www.jahresbericht2019.unibe.ch/successes_2019/einstein_lectures/index_eng.html"
-    }
+    "extraInfo": "¡Sirve en una copa de martini con una cáscara de lima para un toque de sofisticación!"
   },
   {
-    "id": "chien-shiung-wu",
-    "name": "Chien-Shiung Wu",
-    "shortDescription": "Física experimental, contribuyó a la física nuclear.",
-    "description": "Física experimental de origen chino, desafiando los prejuicios de género y nacionalidad, realizó experimentos fundamentales en física de partículas y contribuyó significativamente a la comprensión de la desintegración beta. Su famoso experimento \"Wu\" refutó la paridad en la física de partículas, lo que cambió la forma en que los científicos comprenden las fuerzas fundamentales de la naturaleza. Wu demostró que el talento y la perseverancia pueden superar cualquier barrera, y su legado sigue siendo un faro de inspiración para científicas en todo el mundo.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/chien-shiung-wu.jpg",
+    "id": "piscoSourPeruano015",
+    "name": "Pisco Sour Peruano",
+    "shortDescription": "Ácido, refrescante y con un toque de pisco y limón.",
+    "description": "El Pisco Sour Peruano es el cóctel nacional de Perú y una verdadera delicia para el paladar. Preparado con pisco, jugo de limón, jarabe de azúcar, clara de huevo y un toque de amargo de angostura, es una explosión de sabor y frescura.",
+    "imageUrl": "Imagen de Pisco Sour Peruano",
     "facts": {
-      "yearOfBirth": "1912",
-      "yearOfDeath": "1997",
-      "birthPlace": "Liuhe, Taicang, China",
-      "mainField": "Física"
+      "alcoholContent": "10% ABV",
+      "calorías": "160",
+      "tiempoDePreparación": "7 minutos",
     },
-    "extraInfo": {
-      "imageSource": "https://www.thoughtco.com/chien-shiung-wu-biography-3530366"
-    }
+    "extraInfo": "¡Decora con una rodaja de limón y un toque de canela en polvo para un toque adicional de sabor!"
   },
   {
-    "id": "hedy-lamarr",
-    "name": "Hedy Lamarr",
-    "shortDescription": "Actriz e inventora, contribuyó al desarrollo de la tecnología de espectro ensanchado.",
-    "description": "Actriz austroamericana y científica, fue una mente brillante en la intersección de la tecnología y el entretenimiento. Junto con el compositor George Antheil, inventó un sistema de comunicación secreta durante la Segunda Guerra Mundial que sentó las bases para la tecnología de espectro ensanchado y la comunicación inalámbrica moderna. Lamarr demostró que las mujeres pueden destacar tanto en el cine como en la ciencia, y su legado como inventora ha sido fundamental para el desarrollo de la tecnología de comunicación inalámbrica que usamos en la actualidad.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/hedy-lamarr.jpg",
+    "id": "blueLagoonRefrescante016",
+    "name": "Blue Lagoon Refrescante",
+    "shortDescription": "Azul, refrescante y con un toque de vodka y curaçao azul.",
+    "description": "El Blue Lagoon Refrescante es un cóctel llamativo que combina vodka, curaçao azul y limonada para crear un color azul brillante y un sabor refrescante. Es perfecto para celebraciones y fiestas.",
+    "imageUrl": "Imagen de Blue Lagoon Refrescante",
     "facts": {
-      "yearOfBirth": "1914",
-      "yearOfDeath": "2000",
-      "birthPlace": "Viena, Austria",
-      "mainField": "Actuación, Física"
+      "alcoholContent": "8.5% ABV",
+      "calorías": "140",
+      "tiempoDePreparación": "5 minutos",
     },
-    "extraInfo": {
-      "imageSource": "https://www.sparkfun.com/news/6147"
-    }
+    "extraInfo": "¡Sirve en un vaso alto con hielo y una rodaja de limón para un toque de frescura!"
   },
   {
-    "id": "maria-goeppert-mayer",
-    "name": "Maria Goeppert Mayer",
-    "shortDescription": "Física teórica, ganadora del Premio Nobel de Física.",
-    "description": "Física teórica alemana-estadounidense, dejó una profunda huella en la física nuclear y la mecánica cuántica. Fue la segunda mujer en recibir el Premio Nobel de Física y su trabajo pionero en la estructura de capas nucleares revolucionó nuestra comprensión de los núcleos atómicos. A pesar de las barreras de género en la academia, su dedicación y talento la llevaron a contribuir significativamente a la teoría nuclear, abriendo el camino para futuras investigadoras en un campo dominado por hombres. Maria Goeppert Mayer es un ejemplo inspirador de excelencia científica y perseverancia en la búsqueda del conocimiento.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/maria-goeppert-mayer.jpg",
+    "id": "caipiroskaFrutas017",
+    "name": "Caipiroska de Frutas",
+    "shortDescription": "Frutal, refrescante y con un toque de vodka y frutas frescas.",
+    "description": "La Caipiroska de Frutas es una variación del clásico cóctel brasileño, preparada con vodka, frutas frescas, azúcar y hielo. Es una opción colorida y deliciosa para disfrutar en cualquier ocasión.",
+    "imageUrl": "Imagen de Caipiroska de Frutas",
     "facts": {
-      "yearOfBirth": "1906",
-      "yearOfDeath": "1972",
-      "birthPlace": "Kattowitz, Alemania",
-      "mainField": "Física"
+      "alcoholContent": "8% ABV",
+      "calorías": "150",
+      "tiempoDePreparación": "5 minutos",
     },
-    "extraInfo": {
-      "imageSource": "https://www.wsemexhibit.org/maria-goeppert-mayer.html"
-    }
+    "extraInfo": "¡Decora con trozos de frutas frescas y una ramita de menta para un toque de color y frescura!"
   },
   {
-    "id": "lise-meitner",
-    "name": "Lise Meitner",
-    "shortDescription": "Física nuclear, contribuyó a la teoría de la fisión nuclear.",
-    "description": "Física austriaca-sueca, dejó un legado imborrable en la física nuclear y la radioquímica. A pesar de enfrentar obstáculos de género en una era dominada por hombres, colaboró con Otto Hahn en el descubrimiento de la fisión nuclear, un avance revolucionario. Aunque no compartió el Premio Nobel por este logro, su contribución fue crucial para comprender la energía nuclear y la física de partículas. Su determinación y pasión por la ciencia han inspirado a generaciones de científicas. Lise Meitner es un símbolo perdurable de la perseverancia femenina y el impacto duradero que las mujeres pueden tener en la ciencia.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/lise-meitner.jpg",
+    "id": "pinaColadaFrozen018",
+    "name": "Piña Colada Frozen",
+    "shortDescription": "Congelada, cremosa y con un toque de ron y piña.",
+    "description": "La Piña Colada Frozen es una versión congelada del clásico cóctel tropical, preparada con ron blanco, crema de coco, jugo de piña y hielo triturado. Es perfecta para disfrutar en un día caluroso.",
+    "imageUrl": "Imagen de Piña Colada Frozen",
     "facts": {
-      "yearOfBirth": "1878",
-      "yearOfDeath": "1968",
-      "birthPlace": "Viena, Austria",
-      "mainField": "Física"
+      "alcoholContent": "9% ABV",
+      "calorías": "180",
+      "tiempoDePreparación": "7 minutos",
     },
-    "extraInfo": {
-      "imageSource": "https://www.bing.com/images/create/lise-meitner-in-nuclear-physics-lab-in-19502c-retro/651196e6bbcb4009950e9955c2199760"
-    }
+    "extraInfo": "¡Sirve en una copa de margarita con un borde escarchado de coco para una presentación espectacular!"
   },
   {
-    "id": "sau-lan-wu",
-    "name": "Sau Lan Wu",
-    "shortDescription": "Física de partículas, contribuyó a experimentos clave en física de alta energía.",
-    "description": "Física experimental sinoamericana, ha sido una fuerza motriz en la física de partículas. Destacó en experimentos en el CERN y lideró investigaciones cruciales, como el descubrimiento del quark c, que expandieron nuestro entendimiento de la estructura fundamental de la materia. Wu superó desafíos en una disciplina dominada por hombres y ha sido un faro de inspiración para científicas de todo el mundo. Sau Lan Wu es un ejemplo de excelencia científica y de cómo las mujeres pueden dejar huella en la investigación de vanguardia.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/sau-lan-wu.jpg",
+    "id": "tequilaSunriseTropical019",
+    "name": "Tequila Sunrise Tropical",
+    "shortDescription": "Colorido, refrescante y con un toque de tequila, jugo de naranja y granadina.",
+    "description": "El Tequila Sunrise Tropical es un cóctel vibrante que combina tequila, jugo de naranja y un toque de granadina para crear un efecto de amanecer en un vaso. Es perfecto para disfrutar en una tarde soleada.",
+    "imageUrl": "Imagen de Tequila Sunrise Tropical",
     "facts": {
-      "yearOfBirth": "1940",
-      "birthPlace": "Hong Kong, China",
-      "mainField": "Física de Partículas"
+      "alcoholContent": "9% ABV",
+      "calorías": "160",
+      "tiempoDePreparación": "5 minutos",
     },
-    "extraInfo": {
-      "imageSource": "https://repository.aip.org/islandora/object/nbla%3A315195"
-    }
+    "extraInfo": "¡Decora con una rodaja de naranja y una cereza maraschino para un toque de color!"
   },
   {
-    "id": "jocelyn-bell-burnell",
-    "name": "Jocelyn Bell Burnell",
-    "shortDescription": "Astrónoma y astrofísica, co-descubridora de los púlsares.",
-    "description": "Astrofísica británica, es una figura extraordinaria en la ciencia. Durante su doctorado, hizo un descubrimiento revolucionario al detectar los primeros púlsares, estrellas de neutrones altamente magnetizadas que emiten pulsos regulares de radiación. A pesar de que su asesor recibió el Premio Nobel por este descubrimiento, Bell Burnell se ha convertido en un símbolo de perseverancia y contribución de las mujeres a la astronomía. Su carrera distinguida y su activismo en favor de la diversidad de género en la ciencia han inspirado a generaciones futuras de científicas. Jocelyn Bell Burnell es un ejemplo de valentía y excelencia científica.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/jocelyn-bell-burnell.jpg",
+    "id": "margaritaMango020",
+    "name": "Margarita de Mango",
+    "shortDescription": "Dulce, ácido y con un toque de tequila y mango fresco.",
+    "description": "La Margarita de Mango es una deliciosa variación del clásico cóctel Margarita, preparada con tequila, triple sec, jugo de lima y puré de mango fresco. Es una bebida tropical y refrescante.",
+    "imageUrl": "Imagen de Margarita de Mango",
     "facts": {
-      "yearOfBirth": "1943",
-      "birthPlace": "Belfast, Reino Unido",
-      "mainField": "Astronomía, Astrofísica"
+      "alcoholContent": "8.5% ABV",
+      "calorías": "150",
+      "tiempoDePreparación": "5 minutos",
     },
-    "extraInfo": {
-      "imageSource": "https://womeninscienceweadmire.icfo.eu/wiswa-2/jocelyn-bell/"
-    }
+    "extraInfo": "¡Sirve en un vaso escarchado con sal y una rodaja de lima para una presentación espectacular!"
   },
   {
-    "id": "dorothy-crowfoot-hodgkin",
-    "name": "Dorothy Crowfoot Hodgkin",
-    "shortDescription": "Química, ganadora del Premio Nobel de Química.",
-    "description": "Química británica, es una figura icónica en la ciencia que superó las barreras de género de su época. Su trabajo revolucionario en la cristalografía de rayos X permitió determinar la estructura de importantes biomoléculas, como la penicilina, la vitamina B12 y la insulina. Fue galardonada con el Premio Nobel de Química en 1964, siendo la tercera mujer en recibir este prestigioso reconocimiento. Hodgkin no solo fue una científica excepcional, sino también una defensora de la igualdad de género en la ciencia, allanando el camino para futuras generaciones de científicas y dejando un legado duradero en la investigación y la equidad.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/dorothy-crowfoot-hodgkin.jpg",
+    "id": "gimletPepino021",
+    "name": "Gimlet de Pepino",
+    "shortDescription": "Refrescante, herbal y con un toque de gin y pepino fresco.",
+    "description": "El Gimlet de Pepino es un cóctel elegante y refrescante que combina gin, jugo de lima, jarabe de azúcar y rodajas de pepino fresco. Es perfecto para aquellos que buscan un cóctel ligero y herbal.",
+    "imageUrl": "Imagen de Gimlet de Pepino",
     "facts": {
-      "yearOfBirth": "1910",
-      "yearOfDeath": "1994",
-      "birthPlace": "El Cairo, Egipto / Shipston-on-Stour, Reino Unido",
-      "mainField": "Química"
+      "alcoholContent": "8% ABV",
+      "calorías": "140",
+      "tiempoDePreparación": "5 minutos",
     },
-    "extraInfo": {
-      "imageSource": "https://www.some.ox.ac.uk/news/jan-royall-why-we-must-champion-dorothy-hodgkin-for-the-50-note/"
-    }
+    "extraInfo": "¡Decora con una rodaja de pepino y una hoja de albahaca para un toque de frescura adicional!"
   },
   {
-    "id": "marie-curie",
-    "name": "Marie Curie",
-    "shortDescription": "Física y química, ganadora de dos Premios Nobel.",
-    "description": "física y química de origen polaco y nacionalizada francesa, es una de las figuras más icónicas en la historia de la ciencia. Ganadora de dos premios Nobel (Física en 1903 y Química en 1911), Curie realizó investigaciones fundamentales sobre la radiactividad y el descubrimiento de los elementos radio y polonio. Su dedicación y valentía en la investigación científica, a pesar de los desafíos de la discriminación de género y los riesgos de la radiación, la convierten en un modelo a seguir para científicas de todo el mundo.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/marie-curie.jpg",
+    "id": "oldFashionedClasico022",
+    "name": "Old Fashioned Clásico",
+    "shortDescription": "Tradicional, robusto y con un toque de bourbon y bíter.",
+    "description": "El Old Fashioned Clásico es un cóctel atemporal que combina bourbon, azúcar, bíter y un toque de agua. Es perfecto para los amantes de los cócteles fuertes y robustos.",
+    "imageUrl": "Imagen de Old Fashioned Clásico",
     "facts": {
-      "yearOfBirth": "1867",
-      "yearOfDeath": "1934",
-      "birthPlace": "Varsovia, Polonia",
-      "mainField": "Física y Química"
+      "alcoholContent": "10% ABV",
+      "calorías": "160",
+      "tiempoDePreparación": "5 minutos",
     },
-    "extraInfo": {
-      "imageSource": "https://www.historyextra.com/period/first-world-war/life-of-the-week-marie-curie/"
-    }
+    "extraInfo": "¡Decora con una cereza maraschino y una cáscara de naranja para un toque de elegancia!"
   },
   {
-    "id": "marjory-stephenson",
-    "name": "Marjory Stephenson",
-    "shortDescription": "Microbióloga y bioquímica, investigó en enzimología.",
-    "description": "Bioquímica británica, brilló como científica en una época en la que las mujeres enfrentaban obstáculos muy significativos en la investigación científica. Su trabajo pionero en microbiología, enzimología y bioquímica contribuyó al entendimiento de procesos fundamentales en la vida. Fue una de las primeras mujeres en ser elegida miembro de la Royal Society, un reconocimiento a su destacada contribución a la ciencia. Además, fue una mentora y defensora de las mujeres en la ciencia, inspirando y allanando el camino para futuras generaciones.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/marjory-stephenson.jpg",
+    "id": "martiniSeco023",
+    "name": "Martini Seco",
+    "shortDescription": "Elegante, seco y con un toque de gin y vermut seco.",
+    "description": "El Martini Seco es un cóctel clásico que combina gin y vermut seco para crear una bebida elegante y sofisticada. Es perfecto para disfrutar antes de una cena o en una ocasión especial.",
+    "imageUrl": "Imagen de Martini Seco",
     "facts": {
-      "yearOfBirth": "1885",
-      "yearOfDeath": "1948",
-      "birthPlace": "Londres, Reino Unido",
-      "mainField": "Química, Microbiología, Bioquímica"
+      "alcoholContent": "10% ABV",
+      "calorías": "140",
+      "tiempoDePreparación": "5 minutos",
     },
-    "extraInfo": {
-      "imageSource": "https://microbiologysociety.org/grants-prizes/all-prizes-and-competitions-/prize-lectures/marjory-stephenson-prize-lecture/marjory-stephenson-a-short-history.html"
-    }
+    "extraInfo": "¡Sirve en una copa de martini enfriada y decora con una aceituna verde para un toque de estilo!"
   },
   {
-    "id": "rosalind-franklin",
-    "name": "Rosalind Franklin",
-    "shortDescription": "Química y cristalógrafa, contribuyó a la comprensión de la estructura del ADN.",
-    "description": "Química y cristalógrafa británica, destacó en un campo dominado por hombres y su contribución a la ciencia es innegable. Sus investigaciones pioneras en la cristalografía de rayos X fueron fundamentales para revelar la estructura del ADN en forma de doble hélice, un hito crucial en la biología molecular. A pesar de que su trabajo inicial fue subestimado, su determinación y habilidad científica allanaron el camino para futuros avances en genética y biología. Franklin es un ejemplo inspirador de cómo las mujeres pueden sobresalir en la ciencia, dejando un legado duradero en la investigación y la igualdad de género.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/rosalind-franklin.jpg",
+    "id": "caipirinhaFresa024",
+    "name": "Caipirinha de Fresa",
+    "shortDescription": "Frutal, refrescante y con un toque de cachaça y fresas frescas.",
+    "description": "La Caipirinha de Fresa es una deliciosa variación del cóctel brasileño clásico, preparada con cachaça, fresas frescas, azúcar y hielo. Es una opción refrescante y perfecta para disfrutar en un día caluroso.",
+    "imageUrl": "Imagen de Caipirinha de Fresa",
     "facts": {
-      "yearOfBirth": "1920",
-      "yearOfDeath": "1958",
-      "birthPlace": "Londres, Reino Unido",
-      "mainField": "Química, Cristalografía"
+      "alcoholContent": "8% ABV",
+      "calorías": "130",
+      "tiempoDePreparación": "5 minutos",
     },
-    "extraInfo": {
-      "imageSource": ""
-    }
-  }
 ];
