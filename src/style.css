@@ -2,9 +2,81 @@
     background-color: #DFC4C4;
 }
 
-footer{
-    background-color: #A28C8C;
-    color: 000000;
+.header, .footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     padding: 10px;
-    text-align: left;
+    margin: 10px;
+    border: 2px solid #A28C8C;
+}
+
+/* Flexbox container */
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 0;
+  list-style-type: none;
+}
+  
+/* Estilos para las tarjetas */
+.card {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  margin: 10px;
+  flex: 0 1 calc(25% - 20px); /* Ajuste para que haya 4 tarjetas por fila */
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  transition: transform 0.2s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card img {
+  max-width: 100%;
+  border-bottom: 1px solid #ddd;
+}
+
+.card-content {
+  padding: 15px;
+}
+
+.card-content dl {
+  margin: 0;
+}
+
+.card-content dt {
+  font-weight: bold;
+}
+
+.card-content dd {
+  margin: 0 0 10px;
+}
+
+  /* Modelo de caja para el header y footer */
+  .header, .footer {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 20px 0;
+}
+  
+  /* Flexbox para el formulario */
+  .form-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+  
+  /* Modelo de caja para los inputs */
+  input, select {
+    padding: 5px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
 }

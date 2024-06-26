@@ -10,6 +10,31 @@
     <header>
       <h1>EL RECETARIO DEL BARTENDER</h1>
     </header>
+
+    <main>
+      <h2>¿Qué recetas buscas hoy?</h2>
+
+      <form>
+        <label for="search"></label>
+        <input type="text" id="search" name="search" placeholder="¿Qué buscas?">
+
+        <label for="sort">Ordenar por:</label>
+        <select id="sort" name="sort">
+          <option value="alfabetico">A-Z</option>
+          <option value="alfabeticoInverso">Z-A</option>
+        </select>
+
+        <label for="filter">Filtrar por categoría:</label>
+        <select id="filter" name="filter">
+          <option value="alcoholContent">Contenido de Alcohol</option>
+          <option value="calorias">Calorías</option>
+          <option value="tiempoDePreparacion">Tiempo de Preparación</option>
+        </select>
+      </form>
+
+      <div id="root"></div>
+    </main>
+
     <footer>
       <p>DV12 2024</p>
     </footer>
