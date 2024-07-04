@@ -14,23 +14,27 @@
     <main>
       <h2>¿Qué recetas buscas hoy?</h2>
 
-      <form>
-        <label for="search"></label>
-        <input type="text" id="search" name="search" placeholder="¿Qué buscas?">
+     <form>
+       <!-- <label for="search"></label>-->
+       <!--  <input type="text" id="search" name="search" placeholder="¿Qué buscas?">-->
 
-        <label for="sort">Ordenar por:</label>
-        <select id="sort" name="sort">
+        <label for="sort"></label>
+        <select data-testid="select-sort" name="alf">
+          <option value="">Ordenar por:</option>
           <option value="alfabetico">A-Z</option>
           <option value="alfabeticoInverso">Z-A</option>
         </select>
 
-        <label for="filter">Filtrar por categoría:</label>
-        <select id="filter" name="filter">
-          <option value="alcoholContent">Contenido de Alcohol</option>
-          <option value="calorias">Calorías</option>
-          <option value="tiempoDePreparacion">Tiempo de Preparación</option>
+        <label for="filter"></label>
+        <select data-testid="select-filter" name="propiedades">
+          <option value="">Filtrar por tiempo:</option>
+          <option value="5 minutos">5 minutos</option>
+          <option value="7 minutos">7 minutos</option>
+          <option value="10 minutos">10 minutos</option>
         </select>
-      </form>
+
+        <button data-testid="button-clear">Limpiar</button>
+      </form> 
 
       <div id="root"></div>
     </main>
