@@ -1,17 +1,59 @@
 *{
-    background-color: #DFC4C4;
+  background-color: #c49899;
 }
 
-.header, .footer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 10px;
-    margin: 10px;
-    border: 2px solid #A28C8C;
+header{
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  background-color: #875d5e;
+  padding: 10px;
+  margin: 10px;
 }
 
-/* Flexbox container */
+header h1{
+  background-color: #875d5e;
+}
+
+footer{
+  display: flex;
+  justify-content: left;
+  background-color: #a28b8c;
+  padding: 10px;
+  margin: 10px;
+}
+
+footer p{
+  background-color: #a28b8c;
+}
+
+/* BARRA DE INTERACCION */
+form {
+  display: flex;
+  align-items: center;
+  gap: 10px; /* Espacio entre los elementos */
+}
+
+input, select {
+  flex: 1;
+  padding: 10px;
+  margin: 5px 0;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background-color: #fff;
+}
+
+button[data-testid="button-clear"] {
+  font-size: medium;
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  border: #fff;
+  border-radius: 10px;
+  cursor: pointer;
+}
+  
+/* DISEño TARJETAS */
 .flex-container {
   display: flex;
   flex-wrap: wrap;
@@ -19,19 +61,17 @@
   padding: 0;
   list-style-type: none;
 }
-  
-/* Estilos para las tarjetas */
-.card {
-  background: #fff;
-  border: 1px solid #ddd;
+
+.card-container{
+  background-color: rgba(255, 255, 255, 0.3);
   border-radius: 8px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   margin: 10px;
   flex: 0 1 calc(25% - 20px); /* Ajuste para que haya 4 tarjetas por fila */
   display: flex;
   flex-direction: column;
   overflow: hidden;
   transition: transform 0.2s;
+  padding: 10px;
 }
 
 .card:hover {
@@ -39,44 +79,42 @@
 }
 
 .card img {
-  max-width: 100%;
-  border-bottom: 1px solid #ddd;
+  max-width: 90%;
+  border-radius: 8px;
+  margin: auto; /* Para centrar la imagen horizontalmente */
+  display: block;
 }
 
-.card-content {
-  padding: 15px;
+.card-container dt {
+  margin-top: 10px;
 }
 
-.card-content dl {
-  margin: 0;
+.card-container [itemprop="name"] {
+  font-size: 15px;
+  color: #333;
 }
 
-.card-content dt {
-  font-weight: bold;
+.card-container [itemprop="alcoholContent"],
+.card-container [itemprop="calorias"],
+.card-container [itemprop="tiempoDePreparacion"] {
+    font-weight: bold;
+    background-color: rgba(255, 255, 255, 0.3);
 }
 
-.card-content dd {
-  margin: 0 0 10px;
+/*DISEñO RESPONSIVE*/
+@media screen and (min-width: 768px) {
+  .card {
+    flex: 0 1 calc(50% - 20px); /* Dos tarjetas por fila en tablets */
+  }
 }
 
-  /* Modelo de caja para el header y footer */
-  .header, .footer {
-    border: 1px solid #ccc;
-    padding: 10px;
-    margin: 20px 0;
+@media screen and (min-width: 1024px) {
+  .card {
+    flex: 0 1 calc(25% - 20px); /* tres tarjetas por fila en escritorio */
+  }
 }
-  
-  /* Flexbox para el formulario */
-  .form-container {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    margin-bottom: 20px;
-}
-  
-  /* Modelo de caja para los inputs */
-  input, select {
-    padding: 5px;
-    margin: 5px 0;
-    border: 1px solid #ccc;
-}
+
+@media screen and (max-width: 600px) {
+  form {
+      flex-direction: column;
+  }
