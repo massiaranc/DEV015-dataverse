@@ -16,8 +16,6 @@ export const renderItems = (data) => {
             <dd>${item.name}</dd>
             <dt itemprop="shortDescription"></dt>
             <dd>${item.shortDescription}</dd>
-            <dt itemprop="description"></dt>
-            <dd>${item.description}</dd>
             <dt itemprop="alcoholContent">Contenido de Alcohol:</dt>
             <dd>${item.facts.alcoholContent}</dd>
             <dt itemprop="calorias">Calorías:</dt>
@@ -25,11 +23,9 @@ export const renderItems = (data) => {
             <dt itemprop="tiempoDePreparacion">Tiempo de preparación:</dt>
             <dd>${item.facts.tiempoDePreparacion}</dd>
         </dl>
-    </div>`;
-    console.log(li);
+    </div>` ;
 
     ul.appendChild(li); //agregamos el li al ul
   })
-  console.log(ul);
   return ul;
 };

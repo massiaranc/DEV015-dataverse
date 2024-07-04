@@ -21,13 +21,14 @@
 }
   
 /* Estilos para las tarjetas */
+/*0 1 calc(25% - 20px);*/
 .card {
   background: #fff;
   border: 1px solid #ddd;
   border-radius: 8px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   margin: 10px;
-  flex: 0 1 calc(25% - 20px); /* Ajuste para que haya 4 tarjetas por fila */
+  flex:1 0 100%; /* Ajuste para que haya 4 tarjetas por fila */
   display: flex;
   flex-direction: column;
   overflow: hidden;
@@ -79,4 +80,15 @@
     padding: 5px;
     margin: 5px 0;
     border: 1px solid #ccc;
+}
+@media screen and (min-width: 768px) {
+  .card {
+    flex: 0 1 calc(50% - 20px); /* Dos tarjetas por fila en tablets */
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .card {
+    flex: 0 1 calc(25% - 20px); /* Cuatro tarjetas por fila en escritorio */
+  }
 }

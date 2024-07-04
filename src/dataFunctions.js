@@ -1,9 +1,16 @@
-// Estas funciones son ejemplos, aquí puedes desarrollar tus propias funciones.
+export const filterData = (data, filterBy, value) => {
+  console.log(`Filtrando por: ${filterBy}`);
+  if (!filterBy) return data;
+  
+  // Aplicar el filtro adecuadamente
+  const filteredData = data.filter(item => {
+    const itemValue = item.facts[filterBy];
+    return itemValue === value
+  });
 
-export const example = () => {
-  return 'example';
+  // Aquí se debería devolver el resultado del filtro
+  console.log(filteredData);
+
+  return filteredData; // Devolver los datos filtrados
 };
 
-export const anotherExample = () => {
-  return [];
-};
