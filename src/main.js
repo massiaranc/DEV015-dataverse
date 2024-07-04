@@ -1,7 +1,9 @@
 import data from './data/dataset.js';
 import { renderItems } from './view.js';
 import { filterData } from './dataFunctions.js';
+
 const container = document.querySelector('#root');
+
 //FUNCION para renderizar los datos en el DOM
 const renderFilteredData = (filteredData) => {
   const ul = renderItems(filteredData);
@@ -9,8 +11,10 @@ const renderFilteredData = (filteredData) => {
   container.appendChild(ul); // Añade el nuevo contenido filtrado
   console.log('Datos filtrados renderizados en el DOM');
 };
+
 //RENDERIZADO inicial de los datos
 renderFilteredData(data);
+
 //LEER valores de los Selects
 const orden1 = document.querySelector('[data-testid="select-sort"]');
 const filtro1 = document.querySelector('[data-testid="select-filter"]');
@@ -26,16 +30,17 @@ orden1.addEventListener('change', (e) => {
   }
   renderFilteredData(sortedData);
 });
-  
 filtro1.addEventListener('change', (e) => {
   datosBusqueda.filtro1 = e.target.value;
   console.log(datosBusqueda.filtro1)
   const filteredData = filterData(data, "tiempoDePreparacion", datosBusqueda.filtro1);
   console.log(filteredData)
  // renderFilteredData(filteredData);
-  });
+});
+
 //BOTON DE LIMPIEZA
 const clearButton = document.querySelector('[data-testid="button-clear"]');
+
 clearButton.addEventListener('click', () => {
   orden1.value = '';
   filtro1.value = '';
@@ -44,6 +49,8 @@ clearButton.addEventListener('click', () => {
   renderFilteredData(data);
   console.log('Filtros limpiados');
 });
+
 //VISUALIZACION DE TARJETAS
+//const ul = renderItems(data);
 const card = document.getElementsByClassName('card-container')
 console.log(card)

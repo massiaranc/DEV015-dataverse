@@ -29,3 +29,6 @@ export const renderItems = (data) => {
   })
   return ul;
 };
+
+//<dt itemprop="description"></dt>
+//<dd>${item.description}</dd>
