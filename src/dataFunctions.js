@@ -15,10 +15,13 @@ export const filterData = (data, filterBy, value) => {
 export const sortData = (data, sortBy, sortOrder) => {
   console.log(`Ordenando por: ${sortBy}, Orden: ${sortOrder}`);
   if (!sortBy || !sortOrder) return data;
+
   const sortedData = [...data]; // Hacer una copia de los datos
+
   sortedData.sort((a, b) => {
     const valueA = a[sortBy].toLowerCase();
     const valueB = b[sortBy].toLowerCase();
+
     if (sortOrder === 'asc') {
       return valueA > valueB ? 1 : -1;
     } else if (sortOrder === 'desc') {
@@ -26,6 +29,7 @@ export const sortData = (data, sortBy, sortOrder) => {
     }
     return 0;
   });
+
   console.log('Datos ordenados:', sortedData);
   return sortedData;
 };

@@ -15,11 +15,6 @@
       <h2>¿Qué recetas buscas hoy?</h2>
 
      <form>
-       <!-- <label for="search"></label>-->
-       <!--  <input type="text" id="search" name="search" placeholder="¿Qué buscas?">-->
-
-        
-
         <label for="filter"></label>
         <select data-testid="select-filter" name="propiedades">
           <option value="">Filtrar por tiempo:</option>
@@ -28,6 +23,13 @@
           <option value="10 minutos">10 minutos</option>
         </select>
         
+        <label for="sort"></label>
+        <select data-testid="select-sort" name="alf">
+          <option value="">Ordenar por:</option>
+          <option value="asc">A-Z</option>
+          <option value="desc">Z-A</option>
+        </select>
+
         <label for="sort"></label>
         <select data-testid="select-sort" name="alf">
           <option value="">Ordenar por:</option>

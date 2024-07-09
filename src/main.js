@@ -8,10 +8,10 @@ const filtroTime = document.querySelector('[data-testid="select-filter"]');
 const clearButton = document.querySelector('[data-testid="button-clear"]');
 const datosBusqueda = {orden1: '', filtroTime: ''}
 
-// Estado para almacenar los datos filtrados y ordenados
-let datosFiltradosYOrdenados = [...data]; // Comienza con una copia de los datos originales
+// COPIA ARRAY ORIGINAL
+let datosFiltradosYOrdenados = [...data];
 
-// Función para renderizar los datos filtrados y ordenados en el DOM
+// FUNCION PARA RENDERIZAR
 const renderFilteredData = (filteredData) => {
   const ul = renderItems(filteredData);
   container.innerHTML = ''; // Limpia el contenido previo
@@ -22,43 +22,41 @@ const renderFilteredData = (filteredData) => {
 // RENDERIZADO inicial de los datos
 renderFilteredData(datosFiltradosYOrdenados);
 
-// MANEJADORES de eventos para los selectores
+// SELECTORES DE FILTRO Y ORDEN
+const orden1 = document.querySelector('[data-testid="select-sort"]');
+const filtroTime = document.querySelector('[data-testid="select-filter"]');
+const datosBusqueda = {orden1: '', filtroTime: ''}
+
 orden1.addEventListener('change', (e) => {
-  const sortBy = "name"; // Criterio de ordenamiento por defecto (nombre en este caso)
-  const sortOrder = e.target.value; // Valor seleccionado en el selector de orden
+  const sortBy = "name";
+  const sortOrder = e.target.value;
   console.log('Ordenando por:', sortOrder);
-  
-  // Ordenar los datos filtrados y actualizamos el estado
   datosFiltradosYOrdenados = sortData(datosFiltradosYOrdenados, sortBy, sortOrder);
-  
-  // Renderizar los datos filtrados y ordenados
+
   renderFilteredData(datosFiltradosYOrdenados);
 });
 
 filtroTime.addEventListener('change', (e) => {
-  const filterBy = "tiempoDePreparacion"; // Criterio de filtro por defecto (tiempo de preparación en este caso)
-  const value = e.target.value; // Valor seleccionado en el selector de filtro
+  const filterBy = "tiempoDePreparacion";
+  const value = e.target.value;
   console.log('Filtrando por:', value);
-  
-  // Filtrar los datos y actualizamos el estado
   datosFiltradosYOrdenados = filterData(data, filterBy, value);
-  
-  // Si hay criterio de ordenamiento aplicado, reordenamos los datos
   if (datosBusqueda.orden1) {
-    const sortBy = "name"; // Criterio de ordenamiento por defecto (nombre en este caso)
+    const sortBy = "name";
     datosFiltradosYOrdenados = sortData(datosFiltradosYOrdenados, sortBy, datosBusqueda.orden1);
   }
-  
-  // Renderizar los datos filtrados y ordenados
+
   renderFilteredData(datosFiltradosYOrdenados);
 });
 
 // BOTON DE LIMPIEZA
+const clearButton = document.querySelector('[data-testid="button-clear"]');
+
 clearButton.addEventListener('click', () => {
   // Limpiar los valores de los selectores y el estado de datos
   orden1.value = '';
   filtroTime.value = '';
-  datosFiltradosYOrdenados = [...data]; // Restaurar a los datos originales
+  datosFiltradosYOrdenados = [...data];
   renderFilteredData(datosFiltradosYOrdenados);
   console.log('Filtros limpiados');
 });

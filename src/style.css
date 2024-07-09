@@ -64,12 +64,15 @@ button[data-testid="button-clear"] {
   transition: transform 0.2s;
   padding: 10px;
 }
+
 .card-container * {
   background-color: transparent;
 }
+
 .card-container:hover{
   transform: scale(1.05);
 }
+
 .card-container img{
   max-width: 90%;
   border-radius: 8px;
