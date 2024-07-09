@@ -18,12 +18,7 @@
        <!-- <label for="search"></label>-->
        <!--  <input type="text" id="search" name="search" placeholder="¿Qué buscas?">-->
 
-        <label for="sort"></label>
-        <select data-testid="select-sort" name="alf">
-          <option value="">Ordenar por:</option>
-          <option value="alfabetico">A-Z</option>
-          <option value="alfabeticoInverso">Z-A</option>
-        </select>
+        
 
         <label for="filter"></label>
         <select data-testid="select-filter" name="propiedades">
@@ -31,6 +26,13 @@
           <option value="5 minutos">5 minutos</option>
           <option value="7 minutos">7 minutos</option>
           <option value="10 minutos">10 minutos</option>
+        </select>
+        
+        <label for="sort"></label>
+        <select data-testid="select-sort" name="alf">
+          <option value="">Ordenar por:</option>
+          <option value="asc">A-Z</option>
+          <option value="desc">Z-A</option>
         </select>
 
         <button data-testid="button-clear">Limpiar</button>

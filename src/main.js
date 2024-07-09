@@ -1,56 +1,64 @@
 import data from './data/dataset.js';
 import { renderItems } from './view.js';
-import { filterData } from './dataFunctions.js';
+import { filterData, sortData } from './dataFunctions.js';
 
 const container = document.querySelector('#root');
+const orden1 = document.querySelector('[data-testid="select-sort"]');
+const filtroTime = document.querySelector('[data-testid="select-filter"]');
+const clearButton = document.querySelector('[data-testid="button-clear"]');
+const datosBusqueda = {orden1: '', filtroTime: ''}
 
-//FUNCION para renderizar los datos en el DOM
+// Estado para almacenar los datos filtrados y ordenados
+let datosFiltradosYOrdenados = [...data]; // Comienza con una copia de los datos originales
+
+// Función para renderizar los datos filtrados y ordenados en el DOM
 const renderFilteredData = (filteredData) => {
   const ul = renderItems(filteredData);
   container.innerHTML = ''; // Limpia el contenido previo
   container.appendChild(ul); // Añade el nuevo contenido filtrado
-  console.log('Datos filtrados renderizados en el DOM');
+  console.log('Datos filtrados y ordenados renderizados en el DOM');
 };
 
-//RENDERIZADO inicial de los datos
-renderFilteredData(data);
+// RENDERIZADO inicial de los datos
+renderFilteredData(datosFiltradosYOrdenados);
 
-//LEER valores de los Selects
-const orden1 = document.querySelector('[data-testid="select-sort"]');
-const filtro1 = document.querySelector('[data-testid="select-filter"]');
-const datosBusqueda = {orden1: '', filtro1: ''}
-//MANEJADORES de eventos para los selectores
+// MANEJADORES de eventos para los selectores
 orden1.addEventListener('change', (e) => {
-  datosBusqueda.orden1 = e.target.value;
-  let sortedData = [...data]; // Copia de los datos
-  if (datosBusqueda.orden1 === 'alfabetico') {
-    sortedData.sort((a, b) => a.name.localeCompare(b.name));
-  } else if (datosBusqueda.orden1 === 'alfabeticoInverso') {
-    sortedData.sort((a, b) => b.name.localeCompare(a.name));
+  const sortBy = "name"; // Criterio de ordenamiento por defecto (nombre en este caso)
+  const sortOrder = e.target.value; // Valor seleccionado en el selector de orden
+  console.log('Ordenando por:', sortOrder);
+  
+  // Ordenar los datos filtrados y actualizamos el estado
+  datosFiltradosYOrdenados = sortData(datosFiltradosYOrdenados, sortBy, sortOrder);
+  
+  // Renderizar los datos filtrados y ordenados
+  renderFilteredData(datosFiltradosYOrdenados);
+});
+
+filtroTime.addEventListener('change', (e) => {
+  const filterBy = "tiempoDePreparacion"; // Criterio de filtro por defecto (tiempo de preparación en este caso)
+  const value = e.target.value; // Valor seleccionado en el selector de filtro
+  console.log('Filtrando por:', value);
+  
+  // Filtrar los datos y actualizamos el estado
+  datosFiltradosYOrdenados = filterData(data, filterBy, value);
+  
+  // Si hay criterio de ordenamiento aplicado, reordenamos los datos
+  if (datosBusqueda.orden1) {
+    const sortBy = "name"; // Criterio de ordenamiento por defecto (nombre en este caso)
+    datosFiltradosYOrdenados = sortData(datosFiltradosYOrdenados, sortBy, datosBusqueda.orden1);
   }
-  renderFilteredData(sortedData);
-});
-filtro1.addEventListener('change', (e) => {
-  datosBusqueda.filtro1 = e.target.value;
-  console.log(datosBusqueda.filtro1)
-  const filteredData = filterData(data, "tiempoDePreparacion", datosBusqueda.filtro1);
-  console.log(filteredData)
- // renderFilteredData(filteredData);
+  
+  // Renderizar los datos filtrados y ordenados
+  renderFilteredData(datosFiltradosYOrdenados);
 });
 
-//BOTON DE LIMPIEZA
-const clearButton = document.querySelector('[data-testid="button-clear"]');
-
+// BOTON DE LIMPIEZA
 clearButton.addEventListener('click', () => {
+  // Limpiar los valores de los selectores y el estado de datos
   orden1.value = '';
-  filtro1.value = '';
-  datosBusqueda.orden1 = '';
-  datosBusqueda.filtro1 = '';
-  renderFilteredData(data);
+  filtroTime.value = '';
+  datosFiltradosYOrdenados = [...data]; // Restaurar a los datos originales
+  renderFilteredData(datosFiltradosYOrdenados);
   console.log('Filtros limpiados');
 });
-
-//VISUALIZACION DE TARJETAS
-//const ul = renderItems(data);
-const card = document.getElementsByClassName('card-container')
-console.log(card)
