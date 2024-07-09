@@ -12,11 +12,10 @@ export const renderItems = (data) => {
     li.innerHTML= `<div class="card-container">
         <img src="${item.imageUrl}" alt="${item.name}" itemprop="image">
         <dl itemscope itemtype="http://schema.org/Product">
-          <dt itemprop="name"></dt>
-            <dd>${item.name}</dd>
+            <dt itemprop="name"></dt>
+            <dd class="card-title">${item.name}</dd>
             <dt itemprop="shortDescription"></dt>
-            <dd>${item.shortDescription}</dd>
-
+            <dd class="short-description">${item.shortDescription}</dd>
             <dt itemprop="alcoholContent">Contenido de Alcohol:</dt>
             <dd>${item.facts.alcoholContent}</dd>
             <dt itemprop="calorias">Calorías:</dt>
@@ -35,3 +34,4 @@ export const renderItems = (data) => {
 
 //<dt itemprop="description"></dt>
 //<dd>${item.description}</dd>
+

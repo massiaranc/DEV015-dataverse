@@ -34,7 +34,7 @@ form {
   gap: 10px; /* Espacio entre los elementos */
 }
 
-input, select {
+select {
   flex: 1;
   padding: 10px;
   margin: 5px 0;
@@ -66,7 +66,7 @@ button[data-testid="button-clear"] {
   background-color: rgba(255, 255, 255, 0.3);
   border-radius: 8px;
   margin: 10px;
-  flex: 0 1 calc(25% - 20px); /* Ajuste para que haya 4 tarjetas por fila */
+  flex: 0 1 calc(25% - 20px);
   display: flex;
   flex-direction: column;
   overflow: hidden;
@@ -74,31 +74,42 @@ button[data-testid="button-clear"] {
   padding: 10px;
 }
 
-.card:hover {
+.card-container * {
+  background-color: transparent;
+}
+
+.card-container:hover{
   transform: scale(1.05);
 }
 
-.card img {
+.card-container img{
   max-width: 90%;
   border-radius: 8px;
-  margin: auto; /* Para centrar la imagen horizontalmente */
+  margin: auto;
   display: block;
 }
 
-.card-container dt {
-  margin-top: 10px;
+.card-container .card-title {
+  font-weight: bold;
+  font-size: large;
+  margin-left: 0;
+  margin-right: 0;
+  text-align: center;
+  margin-bottom: 10px;
+  display: block;
 }
 
-.card-container [itemprop="name"] {
-  font-size: 15px;
-  color: #333;
+.card-container .short-description {
+  text-align: center;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 10px;
 }
 
 .card-container [itemprop="alcoholContent"],
 .card-container [itemprop="calorias"],
 .card-container [itemprop="tiempoDePreparacion"] {
     font-weight: bold;
-    background-color: rgba(255, 255, 255, 0.3);
 }
 
 /*DISEñO RESPONSIVE*/
@@ -118,3 +129,4 @@ button[data-testid="button-clear"] {
   form {
       flex-direction: column;
   }
+}
