@@ -33,3 +33,27 @@ export const sortData = (data, sortBy, sortOrder) => {
   console.log('Datos ordenados:', sortedData);
   return sortedData;
 };
+
+// Función para ESTADISTICAS
+export const computeStats = (data) => {
+  const initialStats = {
+    totalAlcoholContent: 0,
+    totalCalorias: 0,
+    count: data.length,
+  };
+
+  const stats = data.reduce((acc, recipe) => {
+    const alcoholContent = parseFloat(recipe.facts.alcoholContent);
+    const calorias = parseInt(recipe.facts.calorias);
+
+    acc.totalAlcoholContent += isNaN(alcoholContent) ? 0 : alcoholContent;
+    acc.totalCalorias += isNaN(calorias) ? 0 : calorias;
+    
+    return acc;
+  }, initialStats);
+
+  return {
+    averageAlcoholContent: (stats.totalAlcoholContent / stats.count).toFixed(2),
+    averageCalories: (stats.totalCalorias / stats.count).toFixed(2),
+  };
+};

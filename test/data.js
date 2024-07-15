@@ -1,8 +1,4 @@
-// Aqui puedes agregar los datos que necesites para tus pruebas
-// al menos debe tener uno que se llame "data"
-
 export const data = [
-    
   {"id": "mojitoRefrescante001",
     "name": "Mojito Refrescante",
     "shortDescription": "Refrescante y delicioso, con un toque de menta y limón.",
@@ -41,4 +37,3 @@ export const data = [
     },
     "extraInfo": "¡Sirve en un vaso escarchado con sal y una rodaja de lima para una presentación espectacular!"
   },];
-

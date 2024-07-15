@@ -45,6 +45,17 @@ button[data-testid="button-clear"] {
   border-radius: 10px;
   cursor: pointer;
 }
+
+#computeStatsButton {
+  font-size: medium;
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  border: #fff;
+  border-radius: 10px;
+  cursor: pointer;
+}
+  
 /* DISEño TARJETAS */
 .flex-container {
   display: flex;
@@ -99,6 +110,41 @@ button[data-testid="button-clear"] {
 .card-container [itemprop="tiempoDePreparacion"] {
     font-weight: bold;
 }
+
+/*ESTADISTICAS*/
+.button-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+#computeStatsButton {
+  padding: 10px 20px;
+  font-size: medium;
+}
+
+#statsResult {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.stat-box {
+  flex: 1;
+  text-align: center;
+  margin: 10px;
+  padding: 20px;
+  border-radius: 8px;
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.stat-box.result {
+  background-color: rgba(255, 255, 255, 0.3);
+  border: 1px solid #333;
+  color: #333;
+  font-weight: bold;
+}
+
 /*DISEñO RESPONSIVE*/
 @media screen and (min-width: 768px) {
   .card {
