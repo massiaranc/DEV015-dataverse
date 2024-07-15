@@ -1,6 +1,6 @@
 import data from './data/dataset.js';
 import { renderItems } from './view.js';
-import { filterData, sortData } from './dataFunctions.js';
+import { filterData, sortData, computeStats } from './dataFunctions.js';
 
 const container = document.querySelector('#root');
 
@@ -55,3 +55,16 @@ clearButton.addEventListener('click', () => {
   renderFilteredData(datosFiltradosYOrdenados);
   console.log('Filtros limpiados');
 });
+
+// BOTON PARA CALCULAR ESTADÍSTICAS
+computeStatsButton.addEventListener('click', () => {
+  const stats = computeStats(data);
+  displayStats(stats);
+});
+
+function displayStats(stats) {
+  statsResult.innerHTML = `
+    <div class="stat-box result">Promedio de alcohol: ${stats.averageAlcoholContent}%</div>
+    <div class="stat-box result">Promedio de calorías: ${stats.averageCalories}</div>
+  `;
+}
