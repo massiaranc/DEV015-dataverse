@@ -1,5 +1,7 @@
 import { filterData, sortData, computeStats } from '../src/dataFunctions.js';
 import { data as fakeData } from './data.js';
+
+//FILTRO
 describe('filterData', () => {
   it('debe retornar 1 cuando aplicamos filtro de tiempo de preparación de 7 minutos', () => {
     const filteredData = filterData(fakeData, "tiempoDePreparacion", "7 minutos");
@@ -10,6 +12,8 @@ describe('filterData', () => {
     expect(filteredData.length).toBe(0);
   });
 });
+
+//ORDEN
 describe('sortData', () => {
   it('debe ordenar por nombre en orden ascendente', () => {
     const sortedData = sortData(fakeData, "name", "asc");
@@ -24,6 +28,8 @@ describe('sortData', () => {
     expect(sortedData[2].name).toBe("Margarita Clásica");
   });
 });
+
+//ESTADISTICAS
 describe('computeStats', () => {
   it('debe calcular correctamente el promedio de contenido de alcohol y calorías', () => {
     const stats = computeStats(fakeData);
