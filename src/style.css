@@ -1,39 +1,49 @@
 *{
-  background-color: #c49899;
+  background-color: #C49899;
 }
-
 header{
   display: flex;
   justify-content: left;
   align-items: center;
-  background-color: #875d5e;
+  background-color: #875D5E;
   padding: 10px;
   margin: 10px;
 }
-
 header h1{
-  background-color: #875d5e;
+  background-color: #875D5E;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+main h2{
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  justify-content: center;
+  text-align: center;
+}
+.principal{
+  width: 100%;
+  height: 300px;
+  display: block;
+  margin: 0 auto;
+  object-fit: cover;
+  object-position: 0% 20%;
 
+}
 footer{
   display: flex;
   justify-content: left;
-  background-color: #a28b8c;
+  background-color: #A28B8C;
   padding: 10px;
   margin: 10px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-
 footer p{
-  background-color: #a28b8c;
+  background-color: #A28B8C;
 }
-
 /* BARRA DE INTERACCION */
 form {
   display: flex;
   align-items: center;
   gap: 10px; /* Espacio entre los elementos */
 }
-
 select {
   flex: 1;
   padding: 10px;
@@ -42,7 +52,6 @@ select {
   border-radius: 10px;
   background-color: #fff;
 }
-
 button[data-testid="button-clear"] {
   font-size: medium;
   padding: 10px 20px;
@@ -71,8 +80,8 @@ button[data-testid="button-clear"] {
   padding: 0;
   list-style-type: none;
 }
-
 .card-container{
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   background-color: rgba(255, 255, 255, 0.3);
   border-radius: 8px;
   margin: 10px;
@@ -98,7 +107,6 @@ button[data-testid="button-clear"] {
   margin: auto;
   display: block;
 }
-
 .card-container .card-title {
   font-weight: bold;
   font-size: large;
@@ -108,14 +116,12 @@ button[data-testid="button-clear"] {
   margin-bottom: 10px;
   display: block;
 }
-
 .card-container .short-description {
   text-align: center;
   margin-left: 0;
   margin-right: 0;
   margin-bottom: 10px;
 }
-
 .card-container [itemprop="alcoholContent"],
 .card-container [itemprop="calorias"],
 .card-container [itemprop="tiempoDePreparacion"] {
@@ -147,6 +153,7 @@ button[data-testid="button-clear"] {
   padding: 20px;
   border-radius: 8px;
   background-color: rgba(255, 255, 255, 0.3);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .stat-box.result {
@@ -162,13 +169,11 @@ button[data-testid="button-clear"] {
     flex: 0 1 calc(50% - 20px); /* Dos tarjetas por fila en tablets */
   }
 }
-
 @media screen and (min-width: 1024px) {
   .card {
     flex: 0 1 calc(25% - 20px); /* tres tarjetas por fila en escritorio */
   }
 }
-
 @media screen and (max-width: 600px) {
   form {
       flex-direction: column;

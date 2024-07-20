@@ -1,3 +1,4 @@
+
 export const filterData = (data, filterBy, value) => {
   console.log(`Filtrando por: ${filterBy}`);
   if (!filterBy) return data;
@@ -10,7 +11,6 @@ export const filterData = (data, filterBy, value) => {
   console.log(filteredData);
   return filteredData; // Devolver los datos filtrados
 };
-
 // Función para ordenar los datos
 export const sortData = (data, sortBy, sortOrder) => {
   console.log(`Ordenando por: ${sortBy}, Orden: ${sortOrder}`);
