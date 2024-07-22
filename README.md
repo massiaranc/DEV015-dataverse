@@ -3,7 +3,7 @@
 
 ## Contenidos
 
-Descripción
+Descripción.
 
 
 Estructura del Proyecto
