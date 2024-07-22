@@ -1,23 +1,23 @@
-
+//Función para FILTRAR
 export const filterData = (data, filterBy, value) => {
   console.log(`Filtrando por: ${filterBy}`);
   if (!filterBy) return data;
-  // Aplicar el filtro adecuadamente
+  
   const filteredData = data.filter(item => {
     const itemValue = item.facts[filterBy];
     return itemValue === value
   });
-  // Aquí se debería devolver el resultado del filtro
+
   console.log(filteredData);
-  return filteredData; // Devolver los datos filtrados
+  return filteredData;
 };
-// Función para ordenar los datos
+
+//Función para ORDENAR
 export const sortData = (data, sortBy, sortOrder) => {
   console.log(`Ordenando por: ${sortBy}, Orden: ${sortOrder}`);
   if (!sortBy || !sortOrder) return data;
 
   const sortedData = [...data]; // Hacer una copia de los datos
-
   sortedData.sort((a, b) => {
     const valueA = a[sortBy].toLowerCase();
     const valueB = b[sortBy].toLowerCase();
@@ -34,7 +34,7 @@ export const sortData = (data, sortBy, sortOrder) => {
   return sortedData;
 };
 
-// Función para ESTADISTICAS
+//Función para ESTADISTICAS
 export const computeStats = (data) => {
   const initialStats = {
     totalAlcoholContent: 0,
